@@ -1,3 +1,6 @@
 td {
     color: rgb(196, 22, 22);
 }
+td.hora {
+    background-color: blue;
+}
