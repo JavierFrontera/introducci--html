@@ -1,6 +1,31 @@
 img{
     margin: 5px;
 }
-td.h1{
-    
+hr{
+    border: 2px black;
 }
+nav{
+    background-color: red;
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+ 
+}
+nav ul{
+    width: 100%;
+    display:table ;
+    background-color: black;
+}
+nav ul li{
+   display: table-cell;
+
+}
+header{
+    width: 100%;
+    background-color: black;
+}
+
+nav ul li a{
+    display: block;
+}
+
