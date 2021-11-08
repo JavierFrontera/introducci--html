@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+ul{
+    list-style: none;
+}
+a{
+
+}
+header{
+    background-color: red;
+    width: 100%;
+}
+nav{
+    width: 75%7;
+    background-color: green;
+    margin: 0 auto;
+}
+nav ul li{
+display: table-cell;
+width: 33%;
+}
+nav ul li a{
+    display: block;
+    background-color: yellow;
+    text-align: center;
+    line-height: 35px;
+    height: 5vh;
+}
+nav ul{
+    display: table;
+    width: 100%;
+}
+nav ul li a:hover{
+    background-color: blue;
+    color: white;
+    height: 100%;
+}
+.active{
+    background-color: red;
+}
