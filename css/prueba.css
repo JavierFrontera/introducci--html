@@ -1,3 +1,7 @@
+:root{
+    --mai-color: pink;
+}
+
 *{
    margin: 0;
    padding: 0; 
@@ -9,7 +13,7 @@ a{
 
 }
 header{
-    background-color: red;
+    background-color:var(--mai-color)
     width: 100%;
 }
 nav{
@@ -39,4 +43,13 @@ nav ul li a:hover{
 }
 .active{
     background-color: red;
+}
+
+@media screen and (max-width: 411px){
+    body{
+        background-color: pink;
+    }
+}
+nav ul li{
+    display: list-item;
 }
