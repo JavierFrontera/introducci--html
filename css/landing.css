@@ -32,7 +32,6 @@ body{
     position: absolute;
     top:0px;
     left:0px;
-    background-color: ;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -51,7 +50,7 @@ a{
     border-radius: 8px;
 }
 
-#:hover{
+:hover{
     color: var(--primary-color);
     background-color: white;
 }
